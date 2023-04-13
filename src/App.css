@@ -1,0 +1,155 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  }
+  .navbar-content{
+  background-color: rgb(241, 62, 50);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  font-size: 30px;
+  }
+.headerr{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  .money{
+  margin-right: 20px;
+  }
+  .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 20px;
+  }
+  
+  .element{
+  max-width: 380px;
+  margin-top: 90px;
+  object-fit: cover;
+  background-color: antiquewhite;
+  color: rgb(22, 21, 21);
+  border-radius: 5px;
+  box-shadow: rgb(255 255 255 / 10%) 0px 1px 1px 0px inset, rgb(50 50 93 / 25%) 0px 50px 100px -20px, rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  }
+  
+  .element img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  }
+  
+  .element p {
+  font-size: 1.2rem;
+  padding: 0.3rem;
+  }
+  
+  .element span {
+  font-size: 1rem;
+  }
+  
+  .InterestAndAdd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .btn-Interest {
+  background-color: rgb(194, 170, 170);
+  }
+  
+  .btn-Add {
+  background-color: rgb(235, 7, 7);
+  }
+  .priceAndName{
+  display: flex;
+  justify-content: space-between;
+
+  }
+  button {
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+  margin: 10px;
+  }
+
+
+
+  .cart {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+  }
+  
+  .cart {
+    border: 1px solid #ccc;
+    padding: 16px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart li {
+    margin-bottom: 16px;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .cart-item-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-item-content img {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+    margin-right: 16px;
+  }
+  
+  .cart-item-quantity button {
+    font-size: 1.2rem;
+    background-color: #50ea52;
+    border: none;
+    padding: 8px;
+    margin: 0 4px;
+  }
+  
+  .cart-item-delete {
+    background-color: #e00c0c;
+    color: rgb(245, 230, 230);
+    border: 1px solid red;
+    border-radius: 8px;
+    padding: 8px 16px;
+  }
+  
+  .cart-summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  
+  .cart-summary p {
+    font-size: 1.2rem;
+  }
+  
